@@ -1,0 +1,139 @@
+*{
+    background-color: rgb(163, 155, 143);
+    
+}
+
+#top H1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+}
+
+#top H2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top H3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bike-card{
+    padding: 40px;
+}
+
+.card1 {
+    background-color: rgb(255, 166, 0);
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+
+
+}
+
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 50px;
+
+}
+
+.card1 img{
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transition: transform 0,25s ease, box-shadow 0.25s ease;
+    border-radius: 20px;
+    
+}
+
+.card-link:hover .card1 img,
+.card-link:focus-visible .card1 img{
+  transform: translateY(-9px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.info {
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    border-radius: 15px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+
+    padding: 15px;
+}
+
+.info img{
+    height: 100%;
+    border-radius: 15px;
+}
+
+.details h3{
+    color: rgb(238, 235, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    background-color: black;
+    
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 300px;
+    
+   
+}
+
+.button button{
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.stats {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+}
+
+.stats th, 
+.stats td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+
+}
+
+
+.bike-grid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bike-grid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
