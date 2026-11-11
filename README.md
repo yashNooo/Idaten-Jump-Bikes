@@ -12,6 +12,7 @@
 - JS
 
 ## Playable Link
+https://yashnooo.github.io/Idaten-Jump-Bikes/
 
 ## Hackatime Link
 https://hackatime.hackclub.com/my/projects/idaten%20jump%20collection
